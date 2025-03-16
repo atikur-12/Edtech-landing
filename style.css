@@ -63,11 +63,21 @@ a{
 	background-color: #54B8FF;
 	border-radius: 0.2rem;
 }
+.navbar{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0; /* Make sure the navbar spans the entire width */
+	z-index: 1000; /* Ensures it's above other elements */
+}
 .navbar_container{
 	max-width: 75rem;
-	margin: 1.19rem auto;
+	margin: 1.19rem auto 0rem auto;
 	display: flex;
 	justify-content: space-between;
+	background-color: #fff;
+	
 }
 .navbar_container img{
 	height: 5rem;
@@ -115,7 +125,7 @@ a{
 	display: flex;
 	justify-content: center;
 	/* max-width: 75rem; */
-	margin: 0px 0px 0px 18.5vw;
+	margin: 18vh 0px 0px 18.5vw;
     gap: 14rem;;
 }
 /* .nav_img{
